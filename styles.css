@@ -1,0 +1,51 @@
+/* This styles the entire body of the webpage */
+body {
+    background-color: #8B0000; /* Dark red background */
+    color: #DAA520; /* Dark yellow text */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Styles for the header */
+header {
+    background-color: #600000; /* Slightly darker red for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Displays the menu items in a line */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFF5EE; /* Light color for links for contrast */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #600000;
+    color: #FFF5EE;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Adding some hover effects to links for interactivity */
+nav ul li a:hover, footer a:hover {
+    color: #FFD700; /* Changes color on hover */
+}
