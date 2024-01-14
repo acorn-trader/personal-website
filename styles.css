@@ -53,3 +53,8 @@ footer {
 nav ul li a:hover, footer a:hover {
     color: #FFD700; /* Changes color on hover */
 }
+
+.gallery-image {
+    height: 200px;
+    border-radius: 50%;
+}
