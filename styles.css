@@ -98,6 +98,10 @@ nav ul li a:hover, footer a:hover {
     color: var(--brightGold); /* Changes color on hover */
 }
 
+.gallery-item {
+    margin-bottom: 75px;
+}
+
 .gallery-image {
     height: 200px;
     border-radius: 10%;
