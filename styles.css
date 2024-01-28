@@ -50,6 +50,7 @@ body {
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     background-attachment: fixed; /* Optional: Makes the background fixed during scroll */
     min-height: 100vh; /* Ensure the body covers the full height of the viewport */
+    padding-bottom: 60px;
 }
 
 
@@ -58,6 +59,7 @@ header {
     background-color: var(--deepMaroon); /* Slightly darker red for contrast */
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 
 /* Navigation menu styles */
@@ -84,13 +86,15 @@ section {
 
 /* Footer styles */
 footer {
-    background-color: var(--deepMaroon);
-    color: var(--lightSeashell);
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+	background-color: var(--deepMaroon);
+	color: var(--lightSeashell);
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: 0;
+	/* width: 100%; */
+	margin: 10px;
+	border-radius: 5px;
 }
 
 /* Adding some hover effects to links for interactivity */
